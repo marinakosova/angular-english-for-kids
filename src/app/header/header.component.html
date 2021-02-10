@@ -1,0 +1,32 @@
+<div class="sidenav" [style.width]="displayWidth">
+    <a class="closebtn" (click)="closeNav()">&times;</a>
+    <a routerLink="/">Home Page</a>
+    <a [routerLink]="['/category', 1]">Farm Animals</a>
+    <a [routerLink]="['/category', 2]">Zoo Animals</a>
+    <a [routerLink]="['/category', 3]">Autumn</a>
+    <a [routerLink]="['/category', 4]">Food</a>
+    <a [routerLink]="['/category', 5]">Home</a>
+    <a [routerLink]="['/category', 6]">Body</a>
+    <a [routerLink]="['/category', 7]">Summer</a>
+    <a [routerLink]="['/category', 8]">Space</a>
+</div>
+<header class="header">
+    <div class="navigation" (click)="openNav()">
+        <div class="navigation__bar1"></div>
+        <div class="navigation__bar2"></div>
+        <div class="navigation__bar3"></div>
+    </div>
+    <div class="logo">
+        <a routerLink="/" class="logo__title">English For Kids</a>
+    </div>
+    <div class="toggle-switch">
+        <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"><span class="on">PLAY</span><span class="off">TRAIN</span></span>
+      </label>
+    </div>
+</header>
+
+<!-- https://www.w3schools.com/howto/howto_css_switch.asp -->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_menu_icon_js -->
+<!-- https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav -->

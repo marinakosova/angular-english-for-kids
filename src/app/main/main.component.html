@@ -1,0 +1,4 @@
+<h2>Hello! Choose A Category:</h2>
+<div class="main wrapper">
+    <app-card *ngFor="let item of _myCards" [title]="item.title" [imageUrl]="item.imageUrl" [quantity]="item.quantity" [categoryId]="item.id"></app-card>
+</div>

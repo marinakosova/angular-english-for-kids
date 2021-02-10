@@ -1,0 +1,52 @@
+/**
+ * Global styles
+ */
+
+// @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Roboto:wght@400;700&display=swap');
+
+/**
+ * Placeholders
+ */
+
+// %transition {
+//     transition: all .3s ease-out;
+// }
+// %font-prim {
+//     font-family: 'Bubblegum Sans', cursive;
+// }
+// %font-add {
+//     font-family: 'Roboto', sans-serif;
+// }
+
+/**
+ * Constants
+ */
+
+
+/**
+ * Mixins
+ */
+
+//  @mixin font ($size, $height: $size, $weight: bold, $style: normal) {
+//   font-size: $size;
+//   font-style: $style;
+//   font-weight: $weight;
+//   line-height: $height;
+// }
+
+/**
+ * Global styles
+ */
+
+ @import '~normalize.css';
+
+ ::ng-deep html {
+    height: 100%;
+    font-size: 10px;
+}
+
+::ng-deep body {
+    background-color: #F4FAFB;
+    font-size: 1.6rem;
+}

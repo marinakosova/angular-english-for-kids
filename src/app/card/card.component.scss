@@ -1,0 +1,54 @@
+.card {
+    cursor: pointer;
+    max-width: 350px;
+    margin: 10px;
+    border: 2px solid #eee;
+    border-radius: 10px;
+    // background-color: #C0EFF6;
+    background-color: #FFFFFF;
+    transition: all .3s ease-out;
+    line-height: 24px;
+    text-align: center;
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 4px 17px rgba(0, 0, 0, 0.35);
+    }
+    a {
+        display: inline-block;
+    }
+    .card__image {
+        width: 250px;
+        display: inline-block;
+        margin: 0;
+        padding: 20px;
+    }
+    .card__title {
+        margin: 0;
+        font-family: 'Bubblegum Sans', cursive;
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    .card__description {
+        margin: 0;
+        padding: 0 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .condition {
+        width: 17px;
+        height: 17px;
+        border-radius: 50%;
+        background: #FFBC29;
+        right: 0;
+    }
+    .condition::after {
+        content: '';
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+    }
+    .card__amount {
+        font-style: italic;
+    }
+}
